@@ -17,6 +17,7 @@ import router from './router'
       <el-menu-item index="2" route="/BookDetail">书籍详情</el-menu-item>
       <el-menu-item index="3" route="/Cart">购物车</el-menu-item>
       <el-menu-item index="4" route="/OrderList">订单</el-menu-item>
+      <el-menu-item index="5" route="/About">关于</el-menu-item>
       
     </el-menu>
     <router-view v-slot="{ Component }" class="bottomPart">

@@ -4,6 +4,7 @@ import BookDetail from '../views/BookDetailPage.vue'
 import CartPage from '../views/CartPage.vue'
 import OrderList from '../views/OrderList.vue'
 import SearchPage from '../views/SearchPage.vue'
+import About from '../views/About.vue'
 
 const routes = [
   {
@@ -30,6 +31,11 @@ const routes = [
     path: '/SearchPage',
     name: 'SearchPage',
     component: SearchPage
+  },
+  {
+    path: '/About',
+    name: 'About',
+    component: About
   },
   
 ]

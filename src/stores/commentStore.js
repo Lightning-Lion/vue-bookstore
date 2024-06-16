@@ -17,6 +17,12 @@ export const useCommentStore = defineStore('commentStore', {
           },
           {
             id: uuidv4(),
+            bookID: '3bd16d5e-ef25-4a7e-83be-ee84ca74446d',
+            content: "每位开发者都应该读这本书",
+            timestamp: new Date().toLocaleString()
+          },
+          {
+            id: uuidv4(),
             bookID: '1998d411-53d1-406b-96ae-06d3b03451ca',
             content: "我跟着这本书，从0开始学习了一切，它是我的指路人",
             timestamp: new Date().toLocaleString()

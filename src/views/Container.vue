@@ -49,6 +49,7 @@
   .container {
     display: flex;
     gap: 20px;
+    margin-bottom: 50px
   }
   </style>
   
